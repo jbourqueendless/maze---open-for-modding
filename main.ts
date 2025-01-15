@@ -1,6 +1,3 @@
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-	
-})
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
     game.over(true)
 })
